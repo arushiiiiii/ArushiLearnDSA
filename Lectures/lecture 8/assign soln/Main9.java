@@ -7,13 +7,17 @@ public class Main9 {
         System.out.print("Enter any two numbers : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        for (int i = a+1; i < b; ++i) {
+
+        for (int i = a+1 ; i < b; i++) {
+            // firstly finding the number of digits i.e. n
             int x = i;
             int n = 0;
             while (x != 0) {
                 x /= 10;
-                ++n;
+                n++;
             }
+
+            // computing the sum of nth power of its digits
             int pow_sum = 0;
             x = i;
             while (x != 0) {
@@ -21,8 +25,11 @@ public class Main9 {
                 pow_sum += Math.pow(digit, n);
                 x /= 10;
             }
-            if (pow_sum == i)
+
+            // checking whether the number i is equal to the sum of nth power of its digits
+            if ( i == pow_sum) {
                 System.out.print(i + " ");
+            }
         }
     }
 }
