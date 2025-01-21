@@ -1,7 +1,7 @@
 //Program to take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 import java.util.Scanner;
 
-public class Main4 {
+public class Operator {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter any two numbers : ");

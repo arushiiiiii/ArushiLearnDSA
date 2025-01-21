@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class c4 {
+public class Occurrence {
     public static void main (String args[]) {
         Scanner sc = new Scanner(System.in);
         // occurrences counting program

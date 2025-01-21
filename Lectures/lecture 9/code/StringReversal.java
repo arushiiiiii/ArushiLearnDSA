@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class c5 {
+public class StringReversal {
     public static void main (String args[]) {
         Scanner sc = new Scanner(System.in);
         // string reversal program

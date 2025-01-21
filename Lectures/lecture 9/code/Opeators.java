@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class c6 {
+public class Opeators {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         // Take input from user till user presses X or x.
