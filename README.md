@@ -1,0 +1,1 @@
+This repository is a collaborative journey through learning Data Structures and Algorithms (DSA) in Java. It aims to cover all major topics, eventually serving as a comprehensive and reliable revision resource.
